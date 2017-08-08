@@ -1,0 +1,16 @@
+#!/usr/bin/env ruby
+
+require 'gosu'
+require 'descriptive_statistics'
+
+require_relative '../lib/sector_five'
+require_relative '../lib/bullet'
+require_relative '../lib/score'
+require_relative '../lib/space_ship'
+require_relative '../lib/enemy_ship'
+require_relative '../lib/explosion'
+
+require_relative '../ext/gosu/physics'
+
+window = SectorFive.new
+window.show
